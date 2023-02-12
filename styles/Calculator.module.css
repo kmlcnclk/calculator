@@ -1,0 +1,77 @@
+.calculatorMainDiv {
+  width: 350px;
+  height: 600px;
+  background-color: #22252d;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.calculatorFirstDiv {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 30px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.calculatorFirstDiv p {
+  font-weight: 700;
+  color: white;
+  font-size: xx-large;
+}
+
+.calculatorSecondDiv {
+  background-color: #292d36;
+  padding: 10px;
+  border-radius: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.calculatorSecondDivs {
+  background-color: #292d36;
+  padding: 10px;
+  border-radius: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 55%;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.calculatorThirdDiv {
+  padding: 5px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+.calculatorThirdDivs {
+  background-color: #32353d;
+  /* background-color: red; */
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* .calculatorThirdDiv { */
+/* } */
